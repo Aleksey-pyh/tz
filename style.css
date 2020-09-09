@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+.head_wrap{
+    background: #05a58d;
+    height: 150px;
+}
+.main_wrap{
+    background: #e9e7e9;
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form_search{
+  margin-top:50px;
+}
+
+
+.footer_wrap{
+    background: #328284;
+    height: 150px;
+}
+.search_menu{
+    background: white;
+    border: 1px solid black;
+}
+.search_menu li{
+    list-style-type: none;
+    padding: 5px 0 0 5px;
+    border-bottom: 1px solid grey;
+}
+.search_menu li:hover{
+    opacity: 0.5;
+    background: #f0edf0;
+}
+.hide{
+    display: none;
+}
